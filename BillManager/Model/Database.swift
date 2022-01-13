@@ -9,7 +9,7 @@ import UIKit
 class Database {
     
     static let billUpdatedNotification = NSNotification.Name("com.apple.BillManager.billUpdated")
-
+    
     static let shared = Database()
         
     private func loadBills() -> [UUID:Bill]? {
